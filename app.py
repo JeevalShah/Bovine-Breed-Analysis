@@ -47,7 +47,7 @@ def preprocess_image(image: Image.Image):
 # -------------------------------
 # Streamlit UI
 # -------------------------------
-st.title("💻 ResNet Image Classifier")
+st.title("🐮 Bovine Image Classifier")
 
 uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 
